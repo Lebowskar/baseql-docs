@@ -51,6 +51,6 @@ When deleting a record only an `id` is needed:
 delete_people(
   id: "recABC123", # required
 ) { }\n}`} code={`{
-insert_people [{
+delete_people [{
   id: "recABC123"
 }]\n}`}/>
